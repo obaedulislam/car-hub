@@ -22,7 +22,7 @@ const Header = () => {
                 </ul>
                 </div>
                 <Link to='/' className="">
-                    <img className='w-20 h-16' src={logo} alt="" />
+                    <img className='w-24 h-20' src={logo} alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden md:flex">

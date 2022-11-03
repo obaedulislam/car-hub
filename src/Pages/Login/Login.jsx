@@ -11,7 +11,7 @@ const Login = () => {
     }
 
     return (
-        <div className="w-full mb-20">
+    <div className="w-full mb-20">
         <div className=" grid gap-20 md:grid-cols-2 flex-col lg:flex-row">
             <div className="text-center lg:text-left flex items-center">
                 <img className='w-3/4 mx-auto' src={login} alt="" />
@@ -23,19 +23,19 @@ const Login = () => {
                         <label className="label">
                             <span className="label-text font-semibold text-[#444444] text-lg">Email</span>
                         </label>
-                        <input type="text" name='email' placeholder="Your email" className="input input-bordered" />
+                        <input type="email" name='email' placeholder="Your email" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text font-semibold text-[#444444] text-lg">Confirm Password</span>
                         </label>
-                        <input type="text" name='password' placeholder="Your password" className="input input-bordered" />
+                        <input type="password" name='password' placeholder="Your password" className="input input-bordered" required />
                         <label className="label">
                             <Link to='/singup' className="label-text-alt link link-hover">Forgot password?</Link>
                         </label>
                     </div>
                     <div className="form-control mt-2">
-                        <input className="btn bg-[#FF3811] border-[#FF3811] duration-300 text-white hover:text-[#FF3811] hover:bg-[#ff391100]  capitalize text-xl text-semibold " type="submit" value="Sign In" />
+                        <input className="btn bg-[#FF3811] border-[#FF3811] duration-300 text-white hover:text-[#FF3811] hover:bg-[#ff391100]  capitalize text-xl text-semibold " type="submit" value="Log In" />
                     </div>
                 </form>
              

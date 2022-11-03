@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsArrowRightShort } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const ServiceCard = ({service}) => {
 
@@ -15,7 +16,9 @@ const ServiceCard = ({service}) => {
                         <h5 className='text-[#FF3811] text-xl font-semibold'>Price: ${price}</h5>
                     </div>
                     <div>
-                        <button className=" pr-0"><BsArrowRightShort className='text-4xl text-[#FF3811] duration-200 hover:text-black'></BsArrowRightShort></button>
+                        <Link to={`/checkout/${_id}`}>
+                            <button className=" pr-0"><BsArrowRightShort className='text-4xl text-[#FF3811] duration-200 hover:text-black'></BsArrowRightShort></button>
+                        </Link>
                     </div>
                 </div>
             </div>

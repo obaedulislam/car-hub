@@ -11,9 +11,9 @@ const BannerItem = ({slide}) => {
                 <img src={image}  alt='' className="w-full  rounded-xl" />
             </div>
 
-            <div className="absolute  justify-end transform -translate-y-1/2 left-10 top-1/2">
+            <div className="absolute w-[50%] justify-end transform -translate-y-1/2 left-10 top-1/2">
                 <h1 className='text-6xl text-white font-bold leading-[75px]'>Affordable <br/> Price For Car<br/> Servicing</h1>
-                <p className='text-white mt-7 text-lg'>There are many variations of passages of  available,<br/> but the majority have suffered alteration in some form</p>
+                <p className='text-white mt-7 text-lg'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                 <div className="absolute flex  transform -translate-y-1/2 mt-12">
                     <button className="btn bg-[#FF3811] border-[#ff391100] duration-300 hover:border-gray-100 hover:bg-[#ff391100] mr-5 capitalize text-lg text-semibold">Discover More</button>
                     <button className="btn bg-[#ff391100]   border-gray-100  duration-300 hover:border-[#ff391100] hover:bg-[#FF3811] mr-5 capitalize text-lg text-semibold">Latest Project</button>

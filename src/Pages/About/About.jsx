@@ -8,7 +8,7 @@ const About = () => {
             <div className="hero-content items-start flex-col lg:flex-row p-0">
                 <div className='w-1/2 relative p-0 m-0'>
                     <img src={person} alt='' className="w-4/5 h-[400px] rounded-xl shadow-2xl" />
-                    <img src={parts} alt='' className="max-w-[280px] h-[280px] absolute right-10 top-2/4 rounded-xl shadow-2xl " />
+                    <img src={parts} alt='' className="w-2/4 h-[270px] border-8 absolute right-10 top-2/4 rounded-xl shadow-2xl " />
                     
                 </div>
                 <div className='w-1/2 pr-10'>
